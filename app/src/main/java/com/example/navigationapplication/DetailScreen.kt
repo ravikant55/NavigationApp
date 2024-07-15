@@ -7,9 +7,10 @@ import androidx.navigation.NavHostController
 
 @Composable
 fun DetailScreen(
-    navHostController: NavHostController
+    navHostController: NavHostController,
+    name : String
 ){
-    Text(text = "Detail")
+    Text(text = "Detail $name")
     
     Button(onClick = { navHostController.popBackStack() }) {
         Text(text = "Back to Home")

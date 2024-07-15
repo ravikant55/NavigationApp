@@ -18,7 +18,7 @@ fun AppNavHost(
         }
 
         composable("Detail"){
-            DetailScreen(navHostController)
+            DetailScreen(navHostController, "Ravikant")
         }
     }
 }
